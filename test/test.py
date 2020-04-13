@@ -14,13 +14,13 @@ class HelloPlugin(commands.Cog):
         elif "tjo" in message.content.lower():
             await message.channel.send("Tjo!")
         elif "gm" in message.content.lower():
-            await message.channel.send("God morgon")
+            await message.channel.send("Godmorgon på dej!")
         elif "gn" in message.content.lower():
-            await message.channel.send("God natt")
-        elif "god morgon" in message.content.lower():
-            await message.channel.send("God morgon!")
-        elif "god natt" in message.content.lower():
-            await message.channel.send("God natt!")
+            await message.channel.send("Godnatt, sov så gott! ")
+        elif "godmorgon" in message.content.lower():
+            await message.channel.send("Godmorgon!")
+        elif "godnatt" in message.content.lower():
+            await message.channel.send("Godnatt! Sov gott")
         elif "tjena" in message.content.lower():
             await message.channel.send("Tjena!")
         elif "wtf" in message.content.lower():
